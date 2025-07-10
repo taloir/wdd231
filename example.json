@@ -1,0 +1,11 @@
+{
+    "family name": "Robinson",
+    "movein date": "1/4/99",
+    "number members": 1,
+    "visited": true,
+    "individuals":[{
+        "name":"Landon",
+        "gender":"M",
+        "birthdate":"1/4/99"
+    }]
+}

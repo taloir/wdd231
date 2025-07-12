@@ -1,0 +1,33 @@
+
+    {
+        "members": [
+            {"name": "Stanton Optical",
+        "address": "2901 N Main St Suite G, Roswell, NM 88201" ,
+        "phone number": "(575) 680-1300",
+        "website url": "https://www.stantonoptical.com/",
+        "image": "https://www.visionmonday.com/CMSImagesContent/2022/02/SO_Stan_HappyEyes_img1_400wide.jpg" ,
+        "membership level": "1"},
+
+        {"name": "Stanton Optical",
+        "address": "2901 N Main St Suite G, Roswell, NM 88201" ,
+        "phone number": "(575) 680-1300",
+        "website url": "https://www.stantonoptical.com/",
+        "image": "https://www.visionmonday.com/CMSImagesContent/2022/02/SO_Stan_HappyEyes_img1_400wide.jpg" ,
+        "membership level": "1"},
+
+        {"name": "Stanton Optical",
+        "address": "2901 N Main St Suite G, Roswell, NM 88201" ,
+        "phone number": "(575) 680-1300",
+        "website url": "https://www.stantonoptical.com/",
+        "image": "https://www.visionmonday.com/CMSImagesContent/2022/02/SO_Stan_HappyEyes_img1_400wide.jpg" ,
+        "membership level": "1"},
+        
+        {"name": "Stanton Optical",
+        "address": "2901 N Main St Suite G, Roswell, NM 88201" ,
+        "phone number": "(575) 680-1300",
+        "website url": "https://www.stantonoptical.com/",
+        "image": "https://www.visionmonday.com/CMSImagesContent/2022/02/SO_Stan_HappyEyes_img1_400wide.jpg" ,
+        "membership level": "1"}
+    ]
+
+    }

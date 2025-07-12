@@ -1,7 +1,7 @@
 const cards = document.querySelector(".businesscards")
 
 async function fetchData() {
-        const response = await fetch();
+        const response = await fetch("https://taloir.github.io/wdd231/chamber/data/members.json");
 
         if (!response.ok) {
             throw new Error(`json error! status: ${response.status}`);

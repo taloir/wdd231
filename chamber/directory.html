@@ -6,23 +6,27 @@
     <meta name="author" content="Landon McConnell">
     <meta name="description" content="Landon McConnell WDD231 chamber directory.">
     <title>Directory</title>
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="icon" href="images/chamberfavicon.ico">
     
     <meta property="og:title" content="Landon McConnell WDD231 chamber directory page">
-    <meta property="og:description" content="Learn about local events, find networking opportunities, read business directories, and support local businesses. We aim to promote local economic growth, support local businesses, and foster a sense of community between businesses.">
+    <meta property="og:description" content="Learn about local events, find networking opportunities, and support local businesses. We aim to promote local economic growth, support local businesses, and foster a sense of community between businesses.">
     <meta property="og:url" content="https://taloir.github.io/wdd231/chamber/directory.html">
     <meta property="og:image" content="https://taloir.github.io/wdd231/images/roswell.webp">
+    <meta property="og:type" content="website">
 
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
 
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/year.js" defer></script>
+    <script src="scripts/lastModified.js" defer></script>
     <script src="scripts/members.js" defer></script>
 </head>
 <body>
-    <header><image src="images/bluesky.svg" alt="site logo" width="100" height="100"></image>
+    <header><image src="images/chamberfavicon.ico" alt="site logo" width="100" height="100"></image>
     <span>Roswell Chamber Of Commerce</span>
-    <button id="ham-btn" class="hamburger" name="navigation menu"></button>
+    <button id="ham-btn" class="hamburger" name="navigation"></button>
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
@@ -43,24 +47,30 @@
         <section id="">
             <h2>Weather Forecast</h2>
         </section>
-        <section class="businesscards">
+        <button id="grid" name="grid">Grid</button>
+        <button id="list" name="list">List</button>
+        <section id="businesscards" class="grid">
         </section>
     </main>
     <footer>
-        <p>Roswell Chamber of Commerce</p>
-        <p>address</p>
-        <p>phone number</p>
-        <p>email</p>
+        <div>
+            <p>Roswell Chamber of Commerce</p>
+            <p>131 West Second Street Roswell NM 88201</p>
+            <p>+1(575) 623-5695</p>
+            <p>reception@roswellnm.org</p>
+        </div>
         <div class="social">
             <a href="" target="_blank"><img src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
             <a href="" target="_blank"><img src="images/linkedin.svg" alt="linkedin" width="16" height="16"></a>
             <a href="" target="_blank"><img src="images/github.svg" alt="github" width="16" height="16"></a>
             <a href="" target="_blank"><img src="images/discord.svg" alt="discord" width="16" height="16"></a>
         </div>
-        <p>WDD231 class project</p>
-        <p>Landon McConnell</p>
-        <p id="currentyear">Copyright, Landon McConnell, USA</p>
-        <p id="lastModified">Last modified</p>
+        <div>
+            <p>WDD231 class project</p>
+            <p>Landon McConnell</p>
+            <p id="currentyear">Copyright, Landon McConnell, USA</p>
+            <p id="lastModified">Last modified</p>
+        </div>
     </footer>
 </body>
 </html>

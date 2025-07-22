@@ -1,14 +1,21 @@
 const cards = document.querySelector("#businesscards")
 
 async function fetchData() {
-        const response = await fetch("./data/members.json");
+    const response = await fetch("./data/members.json");
 
-        if (!response.ok) {
-            throw new Error(`json error! status: ${response.status}`);
-        }
+    if (!response.ok) {
+        throw new Error(`json error! status: ${response.status}`);
+    }
 
-        const data = await response.json();
-        displayMembers(data.members);
+    const data = await response.json();
+
+    let spotlight = data.members.filter(member => member.tier >= 2);
+    spotlight.sort(() => 0.5 - Math.random());
+    let chosen = [];
+    while (chosen.length < 2){
+        chosen.push(spotlight.pop())
+    }
+    displayMembers(spotlight)
 }
 
 
@@ -18,12 +25,16 @@ const displayMembers = (members) => {
     let name = document.createElement('h2');
     let phone = document.createElement('p');
     let website = document.createElement('p');
+    let address = document.createElement('p');
+    let tier = document.createElement('p');
     let image = document.createElement('img');
 
     name.textContent = `${member.name}`;
 
     phone.textContent = `Phone number: ${member.phone}`;
     website.textContent = `Website: ${member.website}`;
+    address.textContent = `Address: ${member.address}`;
+    tier.textContent = `Membership level: ${member.tier}`;
 
     image.setAttribute('src', member.image);
     image.setAttribute('alt', `Logo of ${member.name}`);
@@ -35,23 +46,10 @@ const displayMembers = (members) => {
     card.appendChild(image);
     card.appendChild(phone);
     card.appendChild(website);
-
+    card.appendChild(address);
+    card.appendChild(tier);
     cards.appendChild(card);
   });
 }
 
 fetchData()
-
-
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-
-gridbutton.addEventListener("click", () => {
-	cards.classList.add("grid");
-	cards.classList.remove("list");
-});
-
-listbutton.addEventListener("click", () => {
-	cards.classList.add("list");
-	cards.classList.remove("grid");
-});

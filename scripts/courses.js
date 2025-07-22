@@ -3,6 +3,7 @@ const CSEButton = document.querySelector("#CSE");
 const ALLButton = document.querySelector("#ALL");
 const WDDButton = document.querySelector("#WDD");
 const credits = document.querySelector("#credit");
+const courseDetails = document.querySelector("#course-details");
 
 const courses = [
     {
@@ -94,6 +95,9 @@ function addCourses(courseArray){
     for (let i = 0; i < courseArray.length; i++) {
             totalCredits += courseArray[1].credits
             const newParagraph = document.createElement("p");
+            newParagraph.addEventListener('click', () => {
+                displayCourseDetails(courseArray[1]);
+            });
             newParagraph.textContent = `${courseArray[i].subject} ${courseArray[i].number}`;
             if(courseArray[i].completed){
                 newParagraph.classList.add("completed")
@@ -128,3 +132,23 @@ WDDButton.addEventListener('click', () => {
 });
 
 addCourses(courses)
+
+
+function displayCourseDetails(course) {
+  courseDetails.innerHTML = '';
+  courseDetails.innerHTML = `
+    <button id="closeModal">❌</button>
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Credits</strong>: ${course.credits}</p>
+    <p><strong>Certificate</strong>: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+  `;
+  courseDetails.showModal();
+  
+  closeModal.addEventListener("click", () => {
+    courseDetails.close();
+  });
+}
+

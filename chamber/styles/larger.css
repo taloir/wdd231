@@ -34,8 +34,20 @@
     column-gap: 15px;
     }
 
-    h1{
+    h1, #hero, h3 {
         grid-column: 1/4;
+    }
+
+    #events{
+        grid-column: 1/2;
+    }
+
+    #weather{
+        grid-column: 2/3;
+    }
+
+    #forecast{
+        grid-column: 3/4;
     }
 
     #businesscards{

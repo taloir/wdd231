@@ -6,21 +6,21 @@
         "phone": "+1(575) 680-1300",
         "website": "stantonoptical.com",
         "image": "./images/rocketstock.webp" ,
-        "membership level": "1"},
+        "tier": "1"},
 
         {"name": "Spring River Zoo",
         "address": "1306 E College Blvd, Roswell, NM 88201" ,
         "phone": "+1(575) 624-6760",
         "website": "springriverzoo.com",
         "image": "./images/rocketstock.webp" ,
-        "membership level": "3"},
+        "tier": "3"},
 
         {"name": "Invasion Station",
         "address": "600 N Main St, Roswell, NM 88201" ,
         "phone": "+1(575) 755-4682",
         "website": "invasionstation.com",
         "image": "./images/rocketstock.webp" ,
-        "membership level": "2"},
+        "tier": "2"},
         
        
          {"name": "Frost Giant Games N Lanes",
@@ -28,28 +28,28 @@
         "phone": "+1(575) 208-0718",
         "website": "frostgiantgamesnlanes.com",
         "image": "./images/rocketstock.webp" ,
-        "membership level": "3"},
+        "tier": "3"},
 
          {"name": "UFO Museum and Research Center",
         "address": "114 N Main St, Roswell, NM 88203" ,
         "phone": "+1(575) 625-9495",
         "website": "roswellufomuseum.com",
         "image": "./images/rocketstock.webp" ,
-        "membership level": "3"},
+        "tier": "3"},
 
          {"name": "Ancients of Days",
         "address": "127 N Main St, Roswell, NM 88203" ,
         "phone": "+1(575) 623-2222",
         "website": "ancientsofdays.net",
         "image": "./images/rocketstock.webp" ,
-        "membership level": "1"},
+        "tier": "1"},
 
          {"name": "Roswell UFO Spacewalk",
         "address": "116 E 2nd St, Roswell, NM 88201" ,
         "phone": "+1(575) 910-2113",
         "website": "facebook.com/roswellufospacewalk",
         "image": "./images/rocketstock.webp" ,
-        "membership level": "1"}
+        "tier": "1"}
     ]
 
     }

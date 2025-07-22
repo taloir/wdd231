@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Landon McConnell">
     <meta name="description" content="Landon McConnell WDD231 chamber directory.">
-    <title>Directory</title>
+    <title>Home</title>
     <link rel="icon" href="images/chamberfavicon.ico">
     
     <meta property="og:title" content="Landon McConnell WDD231 chamber directory page">
@@ -21,7 +21,7 @@
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/year.js" defer></script>
     <script src="scripts/lastModified.js" defer></script>
-    <script src="scripts/members.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
 </head>
 <body>
     <header><image src="images/chamberfavicon.ico" alt="site logo" width="100" height="100"></image>
@@ -30,28 +30,39 @@
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li class=""><a href="index.html">Home</a></li>
             <li><a href="#">Discover</a></li>
-            <li class="current"><a href="#">Directory</a></li>
+            <li><a href="directory.html">Directory</a></li>
             <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
+
     <main>
-        <h1>Directory</h1>
-        <section id="">
-            <h2>Events</h2>
-        </section>
-        <section id="">
-            <h2>Current Weather</h2>
-        </section>
-        <section id="">
-            <h2>Weather Forecast</h2>
-        </section>
-        <button id="grid" name="grid">Grid</button>
-        <button id="list" name="list">List</button>
-        <section id="businesscards" class="grid">
-        </section>
+        <h2> This is the join page </h2>
+
+         <form method="GET" action="thankyou.html" class="designOne">
+        <label>First Name <input type="text" name="first" required autocomplete="given-name" title="Your First Name"></label>
+        <label>Last Name <input type="text" name="last" required autocomplete="family-name" title="Your Last Name"></label>
+        <label>Organization Title, your station</label>
+        <label>Email <input type="email" name="email" required placeholder="john89@gmail.com"  title="Your Email" autocomplete="email"></label>
+        <label>Cell Phone <input type="tel" name="phone"  autocomplete="tel" title="A Phone Number with dashes" placeholder="987-555-1234" ></label>
+        <label>Name of Organization</label>
+        
+        <h3>Membership Level</h3>
+        <label><input type="radio" name="" value="" checked> Non-Profit (no fee)</label>
+        <label><input type="radio" name="" value=""> Bronze Membership</label>
+        <label><input type="radio" name="" value=""> Silver Membership</label>
+        <label><input type="radio" name="" value=""> Gold Membership</label>
+
+        
+        <!--insert timestamp, date and time form loaded for user-->
+
+        <input type="submit" value="Send Your Completed Application">
+    </form>
     </main>
+
+    <!--membership level title cards, link for additional info,, modals, incorporate animation/transition-->
+
     <footer>
         <div>
             <p>Roswell Chamber of Commerce</p>

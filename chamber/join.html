@@ -16,12 +16,12 @@
 
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/join.css">
 
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/year.js" defer></script>
     <script src="scripts/lastModified.js" defer></script>
-    <script src="scripts/spotlight.js" defer></script>
+    <script src="scripts/modal.js" defer></script>
 </head>
 <body>
     <header><image src="images/chamberfavicon.ico" alt="site logo" width="100" height="100"></image>
@@ -38,30 +38,69 @@
     </nav>
 
     <main>
-        <h2> This is the join page </h2>
-
-         <form method="GET" action="thankyou.html" class="designOne">
-        <label>First Name <input type="text" name="first" required autocomplete="given-name" title="Your First Name"></label>
-        <label>Last Name <input type="text" name="last" required autocomplete="family-name" title="Your Last Name"></label>
-        <label>Organization Title, your station</label>
-        <label>Email <input type="email" name="email" required placeholder="john89@gmail.com"  title="Your Email" autocomplete="email"></label>
-        <label>Cell Phone <input type="tel" name="phone"  autocomplete="tel" title="A Phone Number with dashes" placeholder="987-555-1234" ></label>
-        <label>Name of Organization</label>
+    <h1>Join the Chamber</h1>
+   
+        <form method="get" action="thankyou.html" class="designOne">
+            <label>First Name <input type="text" name="first" required autocomplete="given-name" title="Your First Name"></label>
+            <label>Last Name <input type="text" name="last" required autocomplete="family-name" title="Your Last Name"></label>
+            <label>Organization Title <input type="text" name="title" required autocomplete="organization-title" title="Your Title"></label>
+            <label>Email <input type="email" name="email" required placeholder="john89@gmail.com"  title="Your Email" autocomplete="email"></label>
+            <label>Cell Phone <input type="tel" name="phone"  autocomplete="tel" title="A Phone Number with dashes" placeholder="987-555-1234" ></label>
+            <label>Name of Organization <input type="text" name="company" required autocomplete="company" title="Company Name"></label>
         
         <h3>Membership Level</h3>
-        <label><input type="radio" name="" value="" checked> Non-Profit (no fee)</label>
-        <label><input type="radio" name="" value=""> Bronze Membership</label>
-        <label><input type="radio" name="" value=""> Silver Membership</label>
-        <label><input type="radio" name="" value=""> Gold Membership</label>
+            <label>Non-Profit<input type="radio" name="tier" value="Non-Profit" checked></label>
+            <label>Bronze Membership<input type="radio" name="tier" value="Bronze"></label>
+            <label>Silver Membership<input type="radio" name="tier" value="Silver"></label>
+            <label>Gold Membership<input type="radio" name="tier" value="Gold"></label>
 
-        
+        <label>Organization Description <input type="textarea" name="description" title="Company Description"></label>
+
         <!--insert timestamp, date and time form loaded for user-->
 
-        <input type="submit" value="Send Your Completed Application">
-    </form>
+            <input type="submit" value="Join the Chamber">
+        </form>
+
+    <div id="levels">
+        <section>
+            <h2>Non Profit Membership Level</h2>
+            <button id="nonprofitBtn">Learn more</button>
+        </section>
+        <section>
+            <h2>Bronze Membership Level</h2>
+            <button id="bronzeBtn">Learn more</button>
+        </section>
+            <section>
+            <h2>Silver Membership Level</h2>
+            <button id="silverBtn">Learn more</button>
+        </section>
+        <section>
+            <h2>Gold Membership Level</h2>
+            <button id="goldBtn">Learn more</button>
+        </section>
+    </div>
     </main>
 
-    <!--membership level title cards, link for additional info,, modals, incorporate animation/transition-->
+    <dialog id="nonprofit" class="modal">
+        <h2>There is no fee for nonprofit buisnesses.</h2>
+        <p>Non-Profit members have access to all Bronze Tier perks at no cost. Which includes the buisness being listed in the Directory, and access to posting their events publicly.</p>
+        <button id="closeNonprofit">Close</button>
+    </dialog>
+    <dialog id="bronze" class="modal">
+        <h2>Fee = 10 Gold Pieces</h2>
+        <p>Bronze Tier Members have their buisnesses listed in the Directory, which is available to anyone looking at the Chamber Site. As well as being able to post their events publicly.</p>
+        <button id="closeBronze">Close</button>
+    </dialog>
+    <dialog id="silver" class="modal">
+        <h2>Fee = 20 Gold Pieces</h2>
+        <p>Silver Tier Members recieve free home page advertising. As well as Events are listed as priority once posted. </p>
+        <button id="closeSilver">Close</button>
+    </dialog>
+    <dialog id="gold" class="modal">
+        <h2>Fee = 30 Gold Pieces</h2>
+        <p>In addition to free home page advertising and Event priority, Gold Tier Members can enjoy the discounted use of the Community Hall for special training or Conventions.</p>
+        <button id="closeGold">Close</button>
+    </dialog>
 
     <footer>
         <div>

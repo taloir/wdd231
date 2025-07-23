@@ -1,0 +1,62 @@
+@media only screen and (min-width: 620px){
+
+    header, main, nav, footer{
+        max-width: 900px;
+        margin:0 auto;
+    }
+    
+    header{
+        grid-template-columns: 24px auto;
+    }
+
+    .hamburger{
+        display:none;
+    }
+
+
+    .navigation {
+        display: block;
+        border-bottom: solid 1px lightblue;
+        margin-bottom: 0px;
+    }
+
+    .navigation ul {
+        display: flex;
+    }
+
+    .navigation a{
+        border: none;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    
+    #levels{
+        grid-column: 2/3;
+    }
+
+    h2{
+        font-family: "Play", sans-serif;
+        font-weight: 400;
+        font-style: normal; 
+    }
+
+    h3{
+        font-family: "Play", sans-serif;
+        font-weight: 700;
+        font-style: bold;  
+    }
+
+    footer{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .social{
+        margin:auto;
+    }
+}

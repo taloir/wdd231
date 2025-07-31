@@ -1,0 +1,52 @@
+{
+    "locations": [
+        {"name": "Area 52",
+        "address": "1008 W Tilden St, Roswell, NM 88203" ,
+        "description": "Laser Tag Center",
+        "image": "./images/area52.webp" 
+        },
+
+         {"name": "Spring River Zoo",
+        "address": "1306 E College Blvd, Roswell, NM 88201" ,
+        "description": "Zoo",
+        "image": "./images/springriverzoo.webp" 
+        },
+
+         {"name": "Center City Lanes",
+        "address": "3905 S Main St, Roswell, NM 88203" ,
+        "description": "Bowling alley",
+        "image": "./images/bowling.webp" 
+        },
+
+         {"name": "Bottomless Lakes State Park",
+        "address": "545A Bottomless Lakes Rd, Roswell, NM 88201" ,
+        "description": "State Park",
+        "image": "./images/bottomlesslakes.webp" 
+        },
+
+         {"name": "BrickTown: Alien Attack",
+        "address": "201 N Main St, Roswell, NM 88201" ,
+        "description": "Tourist attraction",
+        "image": "./images/bricktown.webp" 
+        },
+
+         {"name": "Robert H Goddard Planetarium",
+        "address": "1011 N Richardson Ave, Roswell, NM 88201" ,
+        "description": "Planetarium",
+        "image": "./images/planetarium.webp" 
+        },
+
+        {"name": "Bitter Lake National Wildlife Refuge",
+        "address": "Visitor Center, 4200 E Pine Lodge Rd, Roswell, NM 88201" ,
+        "description": "Wildlife Refuge",
+        "image": "./images/bitterlake.webp" 
+        },
+
+         {"name": "Cahoon Park",
+        "address": "1101 W 4th St, Roswell, NM 88201" ,
+        "description": "Park",
+        "image": "./images/cahoonpark.webp" 
+        }
+
+    ]
+}

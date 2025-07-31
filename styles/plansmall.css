@@ -1,0 +1,89 @@
+/*title fonts*/
+.silkscreen-regular {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/*p fonts*/
+.baumans-regular {
+  font-family: "Baumans", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1{
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #2E294E;
+  color: #EDC17F;
+  width:fit-content;
+  padding: 12px;
+}
+
+p{
+  font-family: "Baumans", system-ui;
+  font-weight: 400;
+  font-style: normal; 
+  width: fit-content;
+  border-radius: 14px;
+  padding: 20px;
+  border-width: 5px;
+  border-color: #EDC17F;
+  border-style: solid;
+}
+
+#title{
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+section{
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border-top-color: #BE3B1A;
+  border-top-width: 5px;
+  border-top-style: solid;
+}
+
+div{
+    height: 40px;
+    width: 40px;
+}
+
+#color1{
+    background-color: #2E294E;
+    /*space blue== 2E294E*/
+}
+
+#color2{
+    background-color: #BE3B1A;
+    /*rust red== BE3B1A*/
+}
+#color3{
+    background-color: #EDC17F;
+    /*sunset gold== EDC17F*/
+}
+#color4{
+    background-color: #8DA7BE;
+    /*space gray== 8DA7BE*/
+}
+#color5{
+    background-color: #CDE6F5;
+    /*light blue== CDE6F5*/
+}
+
+body{
+    background-color: #CDE6F5;
+}
+
+#frame{
+  border-top-color: #BE3B1A;
+  border-top-width: 5px;
+  border-top-style: solid;
+  width: 100%;
+}

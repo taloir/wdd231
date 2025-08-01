@@ -354,10 +354,42 @@ dialog {
     font-style: normal;
   }
 
-  #results{
+#results{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width:fit-content;
     grid-column: 1/4;
-  }
+}
+
+#locations div{
+    display: grid;
+    grid-template-areas: 
+    "name"
+    "image"
+    "description"
+    "address"
+    "learnbtn";
+}
+
+#locations div image{
+    grid-area: image;
+}
+
+#locations div h2{
+    grid-area: name;
+}
+
+#locations div button{
+    grid-area: learnbtn;
+}
+
+#locations div address{
+    grid-area: address;
+    margin-top: -80px;
+    padding-left: 10px;
+}
+
+#locations div p{
+    grid-area: description;
+}

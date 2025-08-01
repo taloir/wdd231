@@ -1,4 +1,4 @@
-@media only screen and (min-width: 620px){
+@media only screen and (min-width: 640px){
 
     header, main, nav, footer{
         max-width: 900px;
@@ -63,4 +63,10 @@
         margin:auto;
     }
 
+
+    #locations{
+        display: grid;
+        grid-column: 1/4;
+        grid-template-columns: 1fr 1fr;
+    }
 }

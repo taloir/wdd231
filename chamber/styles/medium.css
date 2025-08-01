@@ -1,0 +1,33 @@
+@media only screen and (min-width: 320px){
+    #locations div{
+    grid-template-areas: 
+    "name name"
+    "image description"
+    "image address"
+    "learnbtn learnbtn";
+    }
+
+    #locations div image{
+        grid-area: image;
+    }
+
+    #locations div image:hover{
+        box-shadow: 0px 0px 500px rgb(90, 89, 89);
+    }
+
+    #locations div h2{
+        grid-area: name;
+    }
+
+    #locations div button{
+        grid-area: learnbtn;
+    }
+
+    #locations div address{
+        grid-area: address;
+    }
+
+    #locations div p{
+        grid-area: description;
+    }
+}

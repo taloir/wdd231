@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Landon McConnell">
+    <meta name="description" content="Metamon Creator Lab Homepage.">
+    <title>Metamon: discover</title>
+    <link rel="icon" href="images/gandr_favicon.ico">
+    
+    <meta property="og:title" content="Landon McConnell WDD231 chamber homepage">
+    <meta property="og:description" content="To empower creative people to bring their stories to life.">
+    <meta property="og:url" content="https://taloir.github.io/wdd231/final/index.html">
+    <meta property="og:image" content="">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baumans&family=Silkscreen:wght@400;700&family=Special+Elite&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/year.js" defer></script>
+    <script src="scripts/lastModified.js" defer></script>
+    <script src="scripts/characters.js" defer></script>
+</head>
+<body>
+    <header><image src="images/gandr_favicon.ico" alt="site logo" width="100" height="100"></image>
+    <span>Metamon Laboratory</span>
+    <button id="ham-btn" class="hamburger" aria-label="hamburger"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="current"><a href="#">Discover</a></li>
+            <li><a href="create.html">Create</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Discover</h1>
+        <div id="filter">
+            <select id="types" aria-label="types">
+                <option value="">Choose Type to Filter</option>
+                <option value=" aggregate">Aggregate</option>
+                <option value=" animated">Animated</option>
+                <option value=" aquatic">Aquatic</option>
+                <option value=" beastial">Beastial</option>
+                <option value=" ethereal">Ethereal</option>
+                <option value=" exotic">Exotic</option>
+                <option value=" huge">Huge</option>
+                <option value=" magic">Magic</option>
+                <option value=" mobile">Mobile</option>
+                <option value=" normal">Normal</option>
+                <option value=" ranged">Ranged</option>
+                <option value=" sacred">Sacred</option>
+                <option value=" tiny">Tiny</option>
+                <option value=" unholy">Unholy</option>
+                <option value=" verdant">Verdant</option>
+                <option value=" volatile">Volatile</option>
+            </select>
+            <button id="filterBtn">Filter</button>
+        </div>
+        <div id="characters">
+        </div>
+        <div id="modals">
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <p>Metamon</p>
+            <p>+1(575) 123-4567</p>
+            <p>email</p>
+        </div>
+        <div class="social">
+            <a href="" target="_blank"><img src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
+            <a href="" target="_blank"><img src="images/github.svg" alt="github" width="16" height="16"></a>
+            <a href="" target="_blank"><img src="images/discord.svg" alt="discord" width="16" height="16"></a>
+        </div>
+        <div>
+            <p>WDD231 class final</p>
+            <p>Landon McConnell</p>
+            <p id="currentyear">Copyright, Landon McConnell, USA</p>
+            <p id="lastModified">Last modified</p>
+        </div>
+    </footer>
+</body>
+</html>

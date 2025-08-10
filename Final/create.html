@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Landon McConnell">
+    <meta name="description" content="Metamon Creator Lab Homepage.">
+    <title>Metamon: create</title>
+    <link rel="icon" href="images/gandr_favicon.ico">
+    
+    <meta property="og:title" content="Landon McConnell WDD231 chamber homepage">
+    <meta property="og:description" content="To empower creative people to bring their stories to life.">
+    <meta property="og:url" content="https://taloir.github.io/wdd231/final/index.html">
+    <meta property="og:image" content="">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baumans&family=Silkscreen:wght@400;700&family=Special+Elite&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/year.js" defer></script>
+    <script src="scripts/lastModified.js" defer></script>
+</head>
+<body>
+    <header><image src="images/gandr_favicon.ico" alt="site logo" width="100" height="100"></image>
+    <span>Metamon Laboratory</span>
+    <button id="ham-btn" class="hamburger" aria-label="hamburger"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li class="current"><a href="create.html">Create</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Create</h1>
+        <section>
+            <h2>Description:</h2>
+            <p>This is the physical description of the character. It can sometimes also include descriptions of the characters abilities.</p>
+            <h2>Types:</h2>
+            <p>Each character has two types from the following list - Aggregate, Animated, Aquatic, Beastial, Ethereal, Exotic, Huge, Magic, Mobile, Normal, Ranged, Sacred, Tiny, Unholy, Verdant, Volatile</p>
+            <h2>Def score:</h2>
+            <p>This is a score from 1-30 representing how difficult the character is to injure. Basic characters usually have a Def of 7-13</p>
+        </section>
+        <section>
+        <form method="get" action="newchar.html" class="designOne">
+            <label>Character Description<textarea name="description" required placeholder="Description" title="Character Description"></textarea></label>
+            <label>Character Personality<input type="text" name="personality" required placeholder="Personality" title="Character Personality"></label>
+            <label>Character Types<input type="text" name="type" required placeholder="Character Type" title="Character Types"></label>
+            <label>Attack Stat<input type="text" name="attack"  required placeholder="Attack" title="attack" ></label>
+            <label>Defense Stat<input type="text" name="defense" required placeholder="Defense" title="Defense Stat"></label>
+
+            <input type="submit" value="Create Character">
+        </form>
+        </section>
+        <section>
+            <h2>Personality:</h2>
+            <p>Each character has a basic personality description to help inspire roleplay. These can be single words, or even a full sentence, but they should stay brief.</p>
+            <h2>Atk score:</h2>
+            <p>This is a score from 1-30 representing how dangerous and aggressive the character is. Basic characters usually have an Atk of 7-13</p>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <p>Metamon</p>
+            <p>+1(575) 123-4567</p>
+            <p>email</p>
+        </div>
+        <div class="social">
+            <a href="" target="_blank"><img src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
+            <a href="" target="_blank"><img src="images/github.svg" alt="github" width="16" height="16"></a>
+            <a href="" target="_blank"><img src="images/discord.svg" alt="discord" width="16" height="16"></a>
+        </div>
+        <div>
+            <p>WDD231 class final</p>
+            <p>Landon McConnell</p>
+            <p id="currentyear">Copyright, Landon McConnell, USA</p>
+            <p id="lastModified">Last modified</p>
+        </div>
+    </footer>
+</body>
+</html>

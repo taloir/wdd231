@@ -1,0 +1,49 @@
+@media only screen and (min-width: 640px){
+
+    header, main, nav, footer{
+        max-width: 1200px;
+        margin:0 auto;
+    }
+
+    header{
+        grid-template-columns: 24px auto;
+    }
+
+    .hamburger{
+        display:none;
+    }
+
+    .navigation {
+        display: block;
+        border-bottom: solid 1px lightblue;
+        margin-bottom: 0px;
+    }
+
+    .navigation ul {
+        display: flex;
+    }
+
+    .navigation a{
+        border: none;
+    }
+
+    main{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-rows: auto auto auto;
+    column-gap: 0px;
+    }
+
+    h1, h3 {
+        grid-column: 1/4;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .social{
+        margin:auto;
+    }
+}

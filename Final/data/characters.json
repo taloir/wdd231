@@ -1,0 +1,164 @@
+{
+    "characters": [
+        {"image": "./images/menace.webp",
+        "description":"A large android constructed long ago by some lost civilization. Sporting a cone-shaped drill for a right hand and a rusty needle for a left.",
+        "personality":"cold and uncaring",
+        "types": [" animated"," unholy"],
+        "atk": "12",
+        "def": "8" 
+        },
+
+        {"image": "./images/cdl.webp",
+        "description":"A large mass of coiling twisting vines, occasionally a bunch of leaves surface that pantomime facial expressions.",
+        "personality":"depressed",
+        "types": [" aggregate", " verdant"],
+        "atk": "8",
+        "def": "12" 
+        },
+
+        {"image": "./images/flapjack.webp",
+        "description":"A huge plant monster that wears a bakers hat, it usually carries around a spatula that was grown from it's own body, and can dispense maple syrup.",
+        "personality": "indecisive",
+        "types": [" normal", " verdant"] ,
+        "atk": "11",
+        "def": "9" 
+        },
+
+        {"image": "./images/zabat.webp",
+        "description":"An enormous yellow and brown bat with zigzag patterns in it's fur.",
+        "personality":"proud",
+        "types": [" mobile", " volatile"] ,
+        "atk": "13",
+        "def": "7" 
+        },
+
+        {"image": "./images/roadrunner.webp",
+        "description":" Imagine a roadrunner and a monster truck fused. Now give it magical speed powers.",
+        "personality":"oblivious",
+        "types": [" animated", " mobile"] ,
+        "atk": "8",
+        "def": "12" 
+        },
+
+        {"image": "./images/klondike.webp",
+        "description":"A large black and white wolf cub with an orca tail.",
+        "personality":"lonely",
+        "types": [" aquatic", " beastial"] ,
+        "atk": "8",
+        "def": "12" 
+        },
+
+        {"image": "./images/piglet.webp",
+        "description":" This confetti-colored piglet is regularly coated in rich resistant muds. This multicolored mud hardens and then becomes animate like a second skin.",
+        "personality":"artsy",
+        "types": [" animated", " beastial"] ,
+        "atk": "7",
+        "def": "13" 
+        },
+
+        {"image": "./images/hellpup.webp",
+        "description":"This tiny hell pup thinks it is the top dog everywhere it goes. It has three heads, obisidan colored fur, and red colored eyes, which means it is absolutely adorable.",
+        "personality":"playful",
+        "types": [" beastial", " tiny"] ,
+        "atk": "12",
+        "def": "8" 
+        },
+
+        {"image": "./images/aliensuit.webp",
+        "description":"this creature reeks like a not-so-clean overused biology lab. It's bean shaped bio-suit sits atop 4 bizarre twitching legs. Inside the large visor there's a bubbling black and green slime that occasionally reveals alien facial features. A series of bionic arms on the sides and front of the suit occasionally inflate when needed.",
+        "personality":"jittery",
+        "types": [" exotic", " mobile"],
+        "atk": "9",
+        "def": "11" 
+        },
+
+        {"image": "./images/axeman.webp",
+        "description":"A short stocky creature in rangers attire wielding 2 throwing axes. His face is largely obstructed by long red hair and a bushy beard, what is visible depicts a stern face, with one eye scratched out.",
+        "personality":"surly",
+        "types": [" normal", " ranged"],
+        "atk": "8",
+        "def": "12"
+        },
+
+        {"image": "./images/lance.webp",
+        "description":"a child-size fresh faced knight in leathers and a breastplate. He carries a short sword, longsword and shield.",
+        "personality":"loyal",
+        "types": [" normal", " mobile"],
+        "atk": "10",
+        "def": "10" 
+        },
+
+        {"image": "./images/jarbrain.webp",
+        "description":"A brain in a jar possessing strange psychic abilities.",
+        "personality":"superior",
+        "types": [" exotic", " tiny"],
+        "atk": "7",
+        "def": "7" 
+        },
+
+        {"image": "./images/purpleorb.webp",
+        "description":"A floating aura of purple mist surrounding a hard shelled, crystal-like orb. The orb is known to be the true body of the creature.",
+        "personality":"mysterious",
+        "types": [" ethereal", " unholy"],
+        "atk": "10",
+        "def": "10" 
+        },
+
+        {"image": "./images/sheepy.webp",
+        "description":"A fluffy 12 year old sheep satyr with rainbow irridescent horns.",
+        "personality":"timid",
+        "types": [" normal", " magic"],
+        "atk": "8",
+        "def": "12" 
+        },
+
+        {"image": "./images/halfies.webp",
+        "description":"The left side of this creature's body looks like a demons, and the right side looks like an angels.",
+        "personality":"mischevious",
+        "types": [" sacred", " unholy"],
+        "atk": "10",
+        "def": "10" 
+        },
+
+        {"image": "./images/hydra.webp",
+        "description":"This Hydra is still in it's infant stages of life. It currently has 3 heads, each capable of a different attack. It's purple in color, and has a green underbody. All of it's heads have a different colored set of eyes.",
+        "personality":"competitive",
+        "types": [" aggregate", " tiny"],
+        "atk": "12",
+        "def": "8" 
+        },
+
+        {"image": "./images/paperperson.webp",
+        "description":"a little origami paper person",
+        "personality":"optimstic",
+        "types": [" normal", " animated"],
+        "atk": "10",
+        "def": "10" 
+        },
+
+        {"image": "./images/wishfish.webp",
+        "description":"A large brightly colored fish with a large mouth and red lips. Its scales shimmer with a magical fervor.",
+        "personality":"bubbly",
+        "types": [" aquatic", " magic"],
+        "atk": "10",
+        "def": "10" 
+        },
+
+        {"image": "./images/spherelight.webp",
+        "description":"A large, featureless sphere of light.",
+        "personality":"cheery",
+        "types": [" sacred", " ethereal"],
+        "atk": "7",
+        "def": "13" 
+        },
+
+        {"image": "./images/dice_wiz.webp",
+        "description":"A living d20 wearing a wizard hat and adventuring gear.",
+        "personality":"chaotic neutral",
+        "types": [" magic", " animated"],
+        "atk": "10",
+        "def": "10" 
+        }
+
+    ]
+}

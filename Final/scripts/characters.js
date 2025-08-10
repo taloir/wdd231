@@ -54,7 +54,7 @@ const displayCharacters = (characters) => {
     image.setAttribute('alt', `${location.description}`);
     image.setAttribute('width', '300');
     image.setAttribute('height', '300');
-    card.setAttribute('loading', 'lazy');
+    image.setAttribute('loading', 'lazy');
     modal.setAttribute('loading', 'lazy');
 
     card.setAttribute('class','card');
